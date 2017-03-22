@@ -35,3 +35,8 @@ Jupyter Notebooks are a great way to organize your analytic and machine learning
 You need to start a jupyter notebook server locally on your machine, and then you can use the jupyter notebooks through a web browser.  To start the server, open a command-line and type ```jupyter notebook```.  You should see some text outputting to the console as the server starts up, and a browser window should probably open.  If it doesn't, open a browser window and browse to ```http://localhost:8888/tree```
 
 The folder that you started the notebook from in your command line window is the what Jupyter considers to be the root folder of your work.  If you cloned this repo as "eqx-ml-workshop", you can browse to that folder in the tree-view.  Once there, browse into the "notebooks" folder and click on the notebook that you want to run.  Notebooks are saved with an ".ipynb" extension.
+
+## Installing Prophet (for Workshop 2)
+
+From the command line run ```pip install fbprophet```
+
